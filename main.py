@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import time
 import matplotlib.pyplot as plt
-import seaborn as sn
+import seaborn as sns
 
 df = pd.read_csv("startup_cleaned.csv")
 st.set_page_config(layout='wide', page_title='Startup Analysis')
